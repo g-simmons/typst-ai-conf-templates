@@ -1,31 +1,31 @@
 #import "neurips.typ": manuscript
 #show: manuscript.with(
-    title: [Formatting Instructions For NeurIPS 2023],
-    authors: (
-        [
-            *Author 1*\
-            Affiliation 1\
-            Address 1\
-            `a1@email1.com`
-        ],
-        [
-            *Author 2*\
-            Affiliation 2\
-            Address 2\
-            `a2@email2.com`
-        ],
-        [
-            *Author 3*\
-            Affiliation 3\
-            Address 3\
-            `a3@email3.com`
-        ]
-    ),
-    abstract: [
-        The abstract paragraph should be indented $1/2$~inch (3~picas) on both the left- and right-hand margins. Use 10~point type, with a vertical spacing (leading) of 11~points.  The word *Abstract* must be centered, bold, and in point size 12. Two line spaces precede the abstract. The abstract must be limited to one paragraph.
-    ]
+  title: [Formatting Instructions For NeurIPS 2023],
+  authors: (
+    [
+    *Author 1*\
+    Affiliation 1\
+    Address 1\
+    `a1@email1.com`
+    ],
+    [
+    *Author 2*\
+    Affiliation 2\
+    Address 2\
+    `a2@email2.com`
+    ],
+    [
+    *Author 3*\
+    Affiliation 3\
+    Address 3\
+    `a3@email3.com`
+    ],
+  ),
+  abstract: [
+  The abstract paragraph should be indented $1/2$~inch (3~picas) on both the left- and right-hand margins. Use 10~point type, with a vertical spacing (leading) of 11~points. The word *Abstract* must be centered, bold, and in point size 12. Two line spaces precede the abstract. The abstract must be limited to one paragraph.
+  ],
+  // anonymous: false,
 )
-
 
 = Submission of papers to NeurIPS 2023
 
@@ -44,9 +44,11 @@ rejection.
 
 The style files for NeurIPS and other conference information are available on the website at
 
-#align(center)[
-    #link("http://www.neurips.cc/")
-]
+#align(
+  center,
+)[
+  #link("http://www.neurips.cc/")
+  ]
 
 The file `neurips_2023.pdf` contains these instructions and illustrates the various formatting requirements your NeurIPS paper must satisfy.
 
@@ -54,4 +56,4 @@ The only supported style file for NeurIPS 2023 is `neurips_2023.sty` or `neurips
 
 = General formatting instructions
 
-The text must be confined within a rectangle 5.5~inches (33~picas) wide and 9~inches (54~picas) long. The left margin is 1.5~inch (9~picas).  Use 10~point type with a vertical spacing (leading) of 11~points.  Times New Roman is the preferred typeface throughout, and will be selected for you by default. Paragraphs are separated by $1/2$~line space (5.5 points), with no indentation.
+The text must be confined within a rectangle 5.5~inches (33~picas) wide and 9~inches (54~picas) long. The left margin is 1.5~inch (9~picas). Use 10~point type with a vertical spacing (leading) of 11~points. Times New Roman is the preferred typeface throughout, and will be selected for you by default. Paragraphs are separated by $1/2$~line space (5.5 points), with no indentation.
